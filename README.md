@@ -1,4 +1,4 @@
-🤖 AI Resume Screening System
+###🤖 AI Resume Screening System
 
 An AI-powered resume screening and candidate evaluation platform designed to help HR teams efficiently analyze, compare, rank, and shortlist candidates against job descriptions.
 
@@ -86,7 +86,7 @@ Rank candidates based on their screening scores.
 
 View detailed candidate analysis through a web dashboard.
 
-🎯 Problem Statement
+###🎯 Problem Statement
 
 Traditional resume screening is often:
 
@@ -120,7 +120,7 @@ AI Evaluation
        ↓
 Candidate Score & Recommendation
 
-🎯 Project Objectives
+###🎯 Project Objectives
 
 Automate resume screening.
 
@@ -148,9 +148,9 @@ Rank candidates for a particular job.
 
 Provide HR-friendly visualizations and reports.
 
-✨ Key Features
+###✨ Key Features
 
-👤 HR Authentication
+###👤 HR Authentication
 
 HR registration
 
@@ -160,7 +160,7 @@ User session handling
 
 Logout
 
-💼 Job Description Management
+###💼 Job Description Management
 
 Create job descriptions
 
@@ -176,7 +176,7 @@ View uploaded resume count
 
 Navigate to associated candidates
 
-📄 Resume Upload
+###📄 Resume Upload
 
 Supports:
 
@@ -188,11 +188,11 @@ DOCX
 
 Multiple resumes can be uploaded for a job.
 
-🔍 Resume Text Extraction
+###🔍 Resume Text Extraction
 
 Resume text is extracted before AI processing and stored for subsequent analysis.
 
-🧠 AI Resume Screening
+###🧠 AI Resume Screening
 
 The screening pipeline performs:
 
@@ -213,7 +213,7 @@ Final Scoring
        ▼
 Screening Result
 
-🧩 AI Screening Pipeline
+###🧩 AI Screening Pipeline
 
 The AI pipeline is implemented using LangGraph.
 
@@ -248,7 +248,7 @@ The AI pipeline is implemented using LangGraph.
                              ▼
                     Final Screening Result
 
-🤖 AI Agents
+###🤖 AI Agents
 
 1. JD Extractor
 
@@ -404,7 +404,7 @@ Risk Factors
 
 Interview Questions
 
-📊 Scoring System
+###📊 Scoring System
 
 Technical Skills Score
 
@@ -441,7 +441,7 @@ Overall Match Score
 
 The application's scoring logic should be responsible for the final score rather than allowing an LLM to arbitrarily modify it.
 
-🏷️ Hiring Recommendation
+###🏷️ Hiring Recommendation
 
 Score
 
@@ -467,7 +467,7 @@ Consider
 
 Reject
 
-📋 Detailed Candidate Analysis
+###📋 Detailed Candidate Analysis
 
 The candidate details page provides evidence behind the scores.
 
@@ -517,7 +517,7 @@ JavaScript
 
 This provides transparency behind the candidate score.
 
-🏗️ System Architecture
+###🏗️ System Architecture
 
                          HR USER
                             │
@@ -559,7 +559,7 @@ This provides transparency behind the candidate score.
                 ▼
           React Dashboard
 
-🛠️ Technology Stack
+###🛠️ Technology Stack
 
 Frontend
 
@@ -613,7 +613,7 @@ Database
 
 PostgreSQL
 
-📁 Project Structure
+###📁 Project Structure
 
 resume-screening-system/
 │
@@ -683,7 +683,7 @@ resume-screening-system/
 ├── .env.example
 └── README.md
 
-🗄️ Database Design
+###🗄️ Database Design
 
 User
  │
@@ -750,7 +750,7 @@ created_at
 
 The category_analysis field stores detailed Match Evaluator output as structured JSON.
 
-🔄 Resume Processing Flow
+###🔄 Resume Processing Flow
 
 Resume Upload
       │
@@ -790,7 +790,7 @@ Error
   ▼
 Status = Failed
 
-⚙️ Backend API
+###⚙️ Backend API
 
 Authentication
 
@@ -815,7 +815,7 @@ GET /screening/{resume_id}
 GET /screening/jobs/{job_id}/ranking
 GET /screening/candidates
 
-🖥️ Frontend
+###🖥️ Frontend
 
 Main pages:
 
@@ -869,7 +869,7 @@ Risk Factors
         ▼
 Interview Questions
 
-🚀 Installation
+###🚀 Installation
 
 Prerequisites
 
@@ -915,7 +915,7 @@ LLM_API_KEY=your_api_key
 
 Use the appropriate LLM/API variable required by your configured model provider.
 
-⚠️ Security Note
+###⚠️ Security Note
 
 Never commit:
 
@@ -931,7 +931,7 @@ Keep a safe template in:
 
 .env.example
 
-▶️ Running the Application
+###▶️ Running the Application
 
 Backend
 
@@ -980,7 +980,7 @@ http://localhost:5173
         ↓
 10. Review interview questions
 
-📐 Precision, Recall and Skill Matching
+###📐 Precision, Recall and Skill Matching
 
 For set-based skill evaluation:
 
@@ -996,7 +996,7 @@ recall = len(intersection) / len(expected_set)
 
 These metrics can help evaluate how candidate skills overlap with expected requirements.
 
-🔐 Security Considerations
+###🔐 Security Considerations
 
 Never commit:
 
@@ -1010,7 +1010,7 @@ private keys
 
 Use .gitignore to prevent accidental commits.
 
-📈 Future Enhancements
+###📈 Future Enhancements
 
 AI Improvements
 
@@ -1067,7 +1067,7 @@ Screening success rate
 Most common missing skills
 
 
-🛠️ Troubleshooting
+###🛠️ Troubleshooting
 
 Backend does not start
 
@@ -1100,7 +1100,7 @@ Backend logs
 
 LangGraph execution logs
 
-📊 Project Status
+###📊 Project Status
 
 HR Registration
 
@@ -1144,7 +1144,7 @@ Dashboard
 
 Screening Status Tracking
 
-🗺️ Roadmap
+###🗺️ Roadmap
 
 Phase 1 — Core System
 
@@ -1194,7 +1194,7 @@ Security hardening
 
 CI/CD
 
-🤝 Contributing
+###🤝 Contributing
 
 Clone the repository:
 
@@ -1215,7 +1215,7 @@ git push origin feature/new-feature
 
 Then create a Pull Request.
 
-👨‍💻 Author
+###👨‍💻 Author
 
 Mohan Kumar
 
@@ -1242,7 +1242,7 @@ Full-Stack AI Applications
 Machine Learning
 
 
-⭐ Acknowledgements
+###⭐ Acknowledgements
 
 This project uses technologies and concepts from:
 
