@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 85,
+      "preferred_skills_score": 75,
+      "experience_score": 85,
+      "education_score": 90,
+      "domain_fit_score": 85,
+      "overall_match_score": 85,
+      "recommendation": "Shortlist",
+      "summary": "Good technical alignment but some experience or skill gaps remain."
+    }
+  }
+}

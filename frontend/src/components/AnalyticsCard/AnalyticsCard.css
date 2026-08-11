@@ -1,0 +1,167 @@
+/* =========================================================
+   ANALYTICS CARD
+   ========================================================= */
+
+.analytics-card {
+    position: relative;
+
+    min-height: 125px;
+
+    padding: 22px 23px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.05);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+/* =========================================================
+   TOP
+   ========================================================= */
+
+.analytics-card-top {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+/* =========================================================
+   ICON
+   ========================================================= */
+
+.analytics-icon {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: color-mix(
+        in srgb,
+        var(--card-accent) 10%,
+        white
+    );
+}
+
+.analytics-icon span {
+    width: 9px;
+    height: 9px;
+
+    display: block;
+
+    border-radius: 50%;
+
+    background: var(--card-accent);
+}
+
+
+/* =========================================================
+   LABEL
+   ========================================================= */
+
+.analytics-label {
+    color: #64748b;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   VALUE
+   ========================================================= */
+
+.analytics-card-value {
+    margin-top: 16px;
+}
+
+.analytics-card-value h2 {
+    margin: 0;
+
+    color: var(--card-accent);
+
+    font-size: 32px;
+
+    line-height: 1;
+
+    font-weight: 850;
+
+    letter-spacing: -0.7px;
+}
+
+
+/* =========================================================
+   ACCENT LINE
+   ========================================================= */
+
+.analytics-card::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background: var(--card-accent);
+
+    opacity: 0.75;
+}
+
+
+/* =========================================================
+   HOVER
+   ========================================================= */
+
+.analytics-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(15, 23, 42, 0.09);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 550px) {
+
+    .analytics-card {
+        min-height: 115px;
+
+        padding: 20px;
+    }
+
+    .analytics-label {
+        font-size: 13px;
+    }
+
+    .analytics-card-value h2 {
+        font-size: 30px;
+    }
+
+}

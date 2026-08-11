@@ -1,0 +1,69 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# FastAPI / Backend
+# =========================
+
+*.log
+
+# Uploaded files
+uploads/
+uploaded_resumes/
+resumes/
+
+# Generated files
+*.pdf
+*.doc
+*.docx
+
+# =========================
+# Database
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Node / React
+# =========================
+
+node_modules/
+dist/
+build/
+.vite/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# =========================
+# Secrets
+# =========================
+
+*.pem
+*.key
+secrets.json
+credentials.json

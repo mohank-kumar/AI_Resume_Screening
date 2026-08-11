@@ -1,0 +1,909 @@
+/* =========================================================
+   CANDIDATES PAGE
+   ========================================================= */
+
+.candidates-page {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 32px 36px 60px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.candidates-header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+.candidates-eyebrow {
+    margin: 0 0 6px;
+
+    color: #6366f1;
+
+    font-size: 10px;
+
+    font-weight: 850;
+
+    letter-spacing: 1px;
+}
+
+.candidates-header h1 {
+    margin: 0;
+
+    color: #111827;
+
+    font-size: 30px;
+
+    font-weight: 800;
+
+    letter-spacing: -0.6px;
+}
+
+.candidates-header p:last-child {
+    margin: 7px 0 0;
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   CANDIDATE COUNT
+   ========================================================= */
+
+.candidate-count {
+    min-width: 105px;
+
+    padding: 13px 18px;
+
+    text-align: center;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 11px;
+
+    background: white;
+
+    box-shadow:
+        0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.candidate-count strong {
+    display: block;
+
+    color: #4f46e5;
+
+    font-size: 24px;
+
+    font-weight: 850;
+}
+
+.candidate-count span {
+    display: block;
+
+    margin-top: 2px;
+
+    color: #94a3b8;
+
+    font-size: 9px;
+
+    font-weight: 750;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================================
+   FILTER BAR
+   ========================================================= */
+
+.candidates-filter-bar {
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 18px;
+
+    padding: 20px;
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 13px;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.04);
+}
+
+.filter-item {
+    min-width: 230px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.filter-item label {
+    color: #64748b;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.7px;
+}
+
+.filter-item select,
+.search-wrapper {
+    height: 42px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #dbe2ea;
+
+    border-radius: 9px;
+
+    background: white;
+
+    color: #334155;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    outline: none;
+}
+
+.filter-item select {
+    padding: 0 12px;
+
+    cursor: pointer;
+}
+
+.filter-item select:focus,
+.search-wrapper:focus-within {
+    border-color: #818cf8;
+
+    box-shadow:
+        0 0 0 3px rgba(99, 102, 241, 0.08);
+}
+
+.search-filter {
+    flex: 1;
+}
+
+.search-wrapper {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 0 12px;
+
+    color: #94a3b8;
+}
+
+.search-wrapper input {
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    color: #334155;
+
+    font-family: inherit;
+
+    font-size: 12px;
+}
+
+.search-wrapper input::placeholder {
+    color: #a1aab8;
+}
+
+
+/* =========================================================
+   TABLE CARD
+   ========================================================= */
+
+.candidates-table-card {
+    overflow: hidden;
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 6px 20px rgba(15, 23, 42, 0.05);
+}
+
+.table-top {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 23px 24px;
+
+    border-bottom: 1px solid #eef2f7;
+}
+
+.table-top h2 {
+    margin: 0;
+
+    color: #1e293b;
+
+    font-size: 18px;
+
+    font-weight: 800;
+}
+
+.table-top p {
+    margin: 5px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+.result-count {
+    padding: 6px 10px;
+
+    border-radius: 7px;
+
+    background: #f8fafc;
+
+    color: #64748b;
+
+    font-size: 10px;
+
+    font-weight: 750;
+}
+
+
+/* =========================================================
+   TABLE
+   ========================================================= */
+
+.table-wrapper {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+.candidates-table-card table {
+    width: 100%;
+
+    min-width: 1000px;
+
+    border-collapse: collapse;
+}
+
+.candidates-table-card th {
+    padding: 13px 15px;
+
+    text-align: left;
+
+    background: #f8fafc;
+
+    color: #94a3b8;
+
+    font-size: 9px;
+
+    font-weight: 850;
+
+    letter-spacing: 0.6px;
+
+    white-space: nowrap;
+
+    border-bottom: 1px solid #eef2f7;
+}
+
+.candidates-table-card td {
+    padding: 14px 15px;
+
+    color: #475569;
+
+    font-size: 12px;
+
+    border-bottom: 1px solid #f1f5f9;
+
+    vertical-align: middle;
+}
+
+.candidates-table-card tbody tr {
+    transition: background 0.15s ease;
+}
+
+.candidates-table-card tbody tr:hover {
+    background: #fafbff;
+}
+
+.candidates-table-card tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* =========================================================
+   RANK
+   ========================================================= */
+
+.rank-number {
+    width: 27px;
+    height: 27px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+
+    background: #f1f5f9;
+
+    color: #64748b;
+
+    font-size: 10px;
+
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   CANDIDATE
+   ========================================================= */
+
+.candidate-name-cell {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 190px;
+}
+
+.candidate-avatar {
+    width: 35px;
+    height: 35px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #eef2ff;
+
+    color: #4f46e5;
+
+    font-size: 13px;
+
+    font-weight: 800;
+}
+
+.candidate-name-cell strong {
+    display: block;
+
+    max-width: 190px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    color: #1e293b;
+
+    font-size: 12px;
+
+    font-weight: 750;
+}
+
+.candidate-name-cell span {
+    display: block;
+
+    margin-top: 3px;
+
+    color: #94a3b8;
+
+    font-size: 9px;
+}
+
+
+/* =========================================================
+   JOB
+   ========================================================= */
+
+.job-title-cell {
+    color: #475569;
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   RESUME
+   ========================================================= */
+
+.resume-button {
+    max-width: 170px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    padding: 7px 9px;
+
+    overflow: hidden;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 7px;
+
+    background: white;
+
+    color: #475569;
+
+    font-family: inherit;
+
+    font-size: 10px;
+
+    font-weight: 650;
+
+    cursor: pointer;
+}
+
+.resume-button:hover {
+    border-color: #c7d2fe;
+
+    background: #f5f7ff;
+
+    color: #4f46e5;
+}
+
+.resume-button span:last-child {
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   SCORE
+   ========================================================= */
+
+.score-cell strong {
+    color: #2563eb;
+
+    font-size: 15px;
+
+    font-weight: 850;
+}
+
+
+/* =========================================================
+   RECOMMENDATIONS
+   ========================================================= */
+
+.recommendation-badge {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 6px 10px;
+
+    border-radius: 999px;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    white-space: nowrap;
+}
+
+.recommendation-badge.strong-hire {
+    background: #ecfdf5;
+
+    color: #047857;
+}
+
+.recommendation-badge.hire {
+    background: #eff6ff;
+
+    color: #2563eb;
+}
+
+.recommendation-badge.shortlist {
+    background: #fefce8;
+
+    color: #a16207;
+}
+
+.recommendation-badge.consider {
+    background: #fff7ed;
+
+    color: #c2410c;
+}
+
+.recommendation-badge.reject {
+    background: #fef2f2;
+
+    color: #dc2626;
+}
+
+.recommendation-default {
+    background: #f1f5f9;
+
+    color: #64748b;
+}
+
+
+/* =========================================================
+   ACTIONS
+   ========================================================= */
+
+.candidate-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+}
+
+.view-report-btn,
+.delete-candidate-btn {
+    padding: 7px 9px;
+
+    border-radius: 7px;
+
+    font-family: inherit;
+
+    font-size: 9px;
+
+    font-weight: 750;
+
+    cursor: pointer;
+}
+
+.view-report-btn {
+    border: none;
+
+    background: #4f46e5;
+
+    color: white;
+}
+
+.view-report-btn:hover {
+    background: #4338ca;
+}
+
+.delete-candidate-btn {
+    border: 1px solid #fecaca;
+
+    background: #fef2f2;
+
+    color: #dc2626;
+}
+
+.delete-candidate-btn:hover {
+    background: #fee2e2;
+}
+
+
+/* =========================================================
+   EMPTY STATE
+   ========================================================= */
+
+.empty-candidates {
+    height: 280px;
+
+    text-align: center;
+}
+
+.empty-candidates > div {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.empty-icon {
+    width: 48px;
+    height: 48px;
+
+    margin-bottom: 12px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: #f1f5f9;
+
+    font-size: 21px;
+}
+
+.empty-candidates h3 {
+    margin: 0;
+
+    color: #334155;
+
+    font-size: 14px;
+}
+
+.empty-candidates p {
+    margin: 6px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   RESUME PREVIEW MODAL
+========================================================= */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(15, 23, 42, 0.65);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px;
+
+    z-index: 9999;
+}
+
+
+/* Resume Modal */
+
+.resume-modal-container {
+    width: 95vw;
+    max-width: 1400px;
+
+    height: 94vh;
+
+    background: #FFFFFF;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow:
+        0 25px 60px rgba(15, 23, 42, 0.25);
+}
+
+
+/* =========================================================
+   MODAL HEADER
+========================================================= */
+
+.resume-modal-header {
+    min-height: 72px;
+
+    padding: 15px 24px;
+
+    background: #FFFFFF;
+
+    border-bottom: 1px solid #E5E7EB;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    flex-shrink: 0;
+}
+
+.resume-modal-header h3 {
+    margin: 0;
+
+    font-size: 18px;
+
+    font-weight: 750;
+
+    color: #111827;
+}
+
+.resume-modal-header p {
+    margin: 4px 0 0;
+
+    font-size: 13px;
+
+    color: #64748B;
+}
+
+
+/* =========================================================
+   MODAL ACTIONS
+========================================================= */
+
+.resume-modal-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.close-modal-btn {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #F1F5F9;
+
+    color: #475569;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.close-modal-btn:hover {
+    background: #E2E8F0;
+
+    color: #111827;
+}
+
+
+/* =========================================================
+   RESUME BODY
+========================================================= */
+
+.resume-modal-body {
+    flex: 1;
+
+    min-height: 0;
+
+    background: #E5E7EB;
+
+    padding: 0;
+}
+
+.resume-modal-body iframe {
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+    border: none;
+
+    background: white;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .candidates-page {
+        padding: 25px 20px 45px;
+    }
+
+    .candidates-header {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .candidate-count {
+        align-self: flex-start;
+    }
+
+    .candidates-filter-bar {
+        align-items: stretch;
+
+        flex-direction: column;
+    }
+
+    .filter-item {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .candidates-page {
+        padding: 20px 14px 35px;
+    }
+
+    .candidates-header h1 {
+        font-size: 24px;
+    }
+
+    .candidates-table-card {
+        border-radius: 12px;
+    }
+
+    .table-top {
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        padding: 18px;
+    }
+
+    .candidates-filter-bar {
+        padding: 16px;
+    }
+
+    .modal-overlay {
+        padding: 10px;
+    }
+
+    .resume-modal-container {
+        height: 95vh;
+
+        border-radius: 10px;
+    }
+
+}

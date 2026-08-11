@@ -1,0 +1,672 @@
+[
+  {
+    "id": "JD001",
+    "category": "Backend",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: Python Backend Developer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a Python Backend Developer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "Python Backend Developer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The Python Backend Developer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "Backend"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD002",
+    "category": "Backend",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: Django Backend Developer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a Django Backend Developer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "Django Backend Developer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The Django Backend Developer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "Backend"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD003",
+    "category": "AI",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: AI Engineer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a AI Engineer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "AI Engineer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The AI Engineer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "AI"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD004",
+    "category": "AI",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: Agentic AI Developer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a Agentic AI Developer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "Agentic AI Developer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The Agentic AI Developer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "AI"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD005",
+    "category": "Full Stack",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: Full Stack Developer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a Full Stack Developer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "Full Stack Developer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The Full Stack Developer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "Full Stack"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD006",
+    "category": "Full Stack",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: MERN Stack Developer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a MERN Stack Developer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "MERN Stack Developer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The MERN Stack Developer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "Full Stack"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD007",
+    "category": "DevOps",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: DevOps Engineer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a DevOps Engineer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "DevOps Engineer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The DevOps Engineer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "DevOps"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD008",
+    "category": "DevOps",
+    "difficulty": "Medium",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: AWS Cloud Engineer\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a AWS Cloud Engineer to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "AWS Cloud Engineer",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The AWS Cloud Engineer develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "DevOps"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD009",
+    "category": "Intern",
+    "difficulty": "Easy",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: Software Engineer Intern\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a Software Engineer Intern to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "Software Engineer Intern",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The Software Engineer Intern develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "Intern"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  },
+  {
+    "id": "JD010",
+    "category": "Intern",
+    "difficulty": "Easy",
+    "source": "Public-style benchmark (rewritten)",
+    "version": "1.0",
+    "inputs": {
+      "job_description": "Job Title: Python Developer Intern\n\nAbout Us\nWe build enterprise software products for global customers.\n\nRole Overview\nWe are looking for a Python Developer Intern to design, develop and maintain scalable software systems.\n\nResponsibilities\n- Develop production software\n- Build and maintain REST APIs\n- Participate in code reviews\n- Collaborate with cross-functional teams\n- Write unit tests\n- Troubleshoot production issues\n\nRequired Qualifications\n- Bachelor's degree in Computer Science\n- Strong communication skills\n\nRequired Skills\nPython, SQL, REST APIs\n\nPreferred Skills\nDocker, AWS\n\nTools\nGit, GitHub, VS Code, Postman\n\nExperience\n2-4 years\n\nWork Mode\nHybrid\n\nLocation\nChennai\n"
+    },
+    "reference_outputs": {
+      "job_metadata": {
+        "title": "Python Developer Intern",
+        "department": "Engineering",
+        "employment_type": null,
+        "work_mode": "Hybrid",
+        "location": "Chennai",
+        "experience_level": null,
+        "min_years_experience": 2,
+        "max_years_experience": 4
+      },
+      "role_overview": "The Python Developer Intern develops and maintains software applications.",
+      "required_qualifications": {
+        "education": [
+          "Bachelor's degree in Computer Science"
+        ],
+        "certifications": []
+      },
+      "skills": {
+        "mandatory_technical_skills": [
+          "Python",
+          "SQL",
+          "REST APIs"
+        ],
+        "preferred_technical_skills": [
+          "Docker",
+          "AWS"
+        ],
+        "tools_and_technologies": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman"
+        ],
+        "soft_skills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop production software",
+        "Build REST APIs",
+        "Participate in code reviews",
+        "Collaborate with cross-functional teams",
+        "Write unit tests"
+      ],
+      "domain_knowledge": [
+        "Intern"
+      ],
+      "screening_criteria_weights": {
+        "technical_skills_weight": "High",
+        "experience_weight": "Medium",
+        "education_weight": "Low",
+        "domain_knowledge_weight": "Low"
+      }
+    }
+  }
+]

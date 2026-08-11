@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 35,
+      "preferred_skills_score": 25,
+      "experience_score": 35,
+      "education_score": 40,
+      "domain_fit_score": 35,
+      "overall_match_score": 35,
+      "recommendation": "Reject",
+      "summary": "Major technical and experience gaps make the candidate unsuitable."
+    }
+  }
+}

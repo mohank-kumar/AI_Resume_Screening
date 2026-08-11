@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 95,
+      "preferred_skills_score": 85,
+      "experience_score": 95,
+      "education_score": 100,
+      "domain_fit_score": 95,
+      "overall_match_score": 95,
+      "recommendation": "Strong Hire",
+      "summary": "Excellent alignment with mandatory skills, experience, education, and domain."
+    }
+  }
+}

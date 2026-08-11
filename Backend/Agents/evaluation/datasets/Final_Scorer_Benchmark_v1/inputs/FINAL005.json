@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 72,
+      "preferred_skills_score": 62,
+      "experience_score": 72,
+      "education_score": 77,
+      "domain_fit_score": 72,
+      "overall_match_score": 72,
+      "recommendation": "Consider",
+      "summary": "Partial match with meaningful skill and experience gaps."
+    }
+  }
+}

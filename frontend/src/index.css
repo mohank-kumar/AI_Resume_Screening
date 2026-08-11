@@ -1,0 +1,118 @@
+/* =========================================================
+   GLOBAL RESET
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}
+
+
+/* =========================================================
+   ROOT
+========================================================= */
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F8FAFC;
+
+    color: #111827;
+
+    min-width: 320px;
+
+    font-size: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =========================================================
+   LINKS
+========================================================= */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+========================================================= */
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: inherit;
+
+    font-size: 15px;
+}
+
+input,
+textarea {
+    color: #1E293B;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================================================
+   SELECTION
+========================================================= */
+
+::selection {
+    background: #DBEAFE;
+    color: #1E40AF;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+}

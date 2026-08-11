@@ -1,0 +1,219 @@
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+.navbar {
+    height: 82px;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 25px;
+
+    padding: 0 32px;
+
+    background: #1e293b;
+
+    color: white;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.navbar-title h2 {
+    margin: 0;
+
+    color: #f8fafc;
+
+    font-size: 24px;
+
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+.navbar-title p {
+    margin: 3px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 13px;
+
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   USER PROFILE
+   ========================================================= */
+
+.user-profile-badge {
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    padding: 8px 15px 8px 9px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    border-radius: 999px;
+
+    min-width: 175px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   AVATAR
+   ========================================================= */
+
+.user-avatar {
+    width: 38px;
+
+    height: 38px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        135deg,
+        #6366f1,
+        #3b82f6
+    );
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    box-shadow:
+        0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================================================
+   USER INFORMATION
+   ========================================================= */
+
+.user-info {
+    min-width: 0;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.user-name {
+    color: #f8fafc;
+
+    font-size: 13px;
+
+    font-weight: 750;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.user-email {
+    margin-top: 2px;
+
+    color: #94a3b8;
+
+    font-size: 10px;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .navbar {
+        height: 72px;
+
+        padding: 0 20px;
+    }
+
+    .navbar-title h2 {
+        font-size: 20px;
+    }
+
+    .navbar-title p {
+        font-size: 11px;
+    }
+
+    .user-profile-badge {
+        min-width: auto;
+
+        padding: 6px;
+    }
+
+    .user-info {
+        display: none;
+    }
+
+    .user-avatar {
+        width: 36px;
+        height: 36px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .navbar {
+        padding: 0 14px;
+    }
+
+    .navbar-title h2 {
+        font-size: 18px;
+    }
+
+    .navbar-title p {
+        display: none;
+    }
+
+}

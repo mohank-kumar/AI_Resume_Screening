@@ -1,0 +1,75 @@
+{
+  "candidate_info": {
+    "full_name": "Candidate 7",
+    "email": "candidate7@gmail.com",
+    "phone": "+91 9000000000",
+    "location": "Chennai",
+    "linkedin_url": null,
+    "portfolio_url": null
+  },
+  "professional_summary": "AWS Cloud Engineer with 3 years experience.",
+  "total_years_experience": 19,
+  "skills": {
+    "technical_skills": [
+      "AWS",
+      "Terraform"
+    ],
+    "tools_and_platforms": [
+      "Git",
+      "Postman"
+    ],
+    "soft_skills": [
+      "Communication"
+    ]
+  },
+  "work_history": [
+    {
+      "job_title": "AWS Cloud Engineer",
+      "company": "ABC Technologies",
+      "location": "Chennai",
+      "start_date": null,
+      "end_date": "Present",
+      "duration_in_months": 36,
+      "responsibilities_and_achievements": [
+        "Develop software"
+      ],
+      "technologies_used": [
+        "AWS",
+        "Terraform"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's",
+      "field_of_study": "Computer Science",
+      "institution": "Anna University",
+      "graduation_year": 2022,
+      "gpa": 8.5
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project A",
+      "description": "Demo",
+      "technologies_used": [
+        "AWS",
+        "Terraform"
+      ],
+      "project_url": null
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Python Programming",
+      "issuer": null,
+      "year": null
+    }
+  ],
+  "domain_experience": [
+    "Software Engineering"
+  ],
+  "languages": [
+    "English"
+  ]
+}

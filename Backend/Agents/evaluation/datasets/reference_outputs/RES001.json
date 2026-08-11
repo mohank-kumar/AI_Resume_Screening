@@ -1,0 +1,76 @@
+{
+  "candidate_info": {
+    "full_name": "Arun Prakash",
+    "email": "arun.prakash@gmail.com",
+    "phone": "+91 98765 43210",
+    "location": "Chennai, Tamil Nadu",
+    "linkedin": "https://linkedin.com/in/arunprakash",
+    "github": "https://github.com/arunprakash"
+  },
+  "professional_summary": "Python Backend Developer with 3 years of experience building scalable software systems.",
+  "skills": {
+    "technical_skills": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "FastAPI",
+      "Django",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Docker",
+      "Postman",
+      "VS Code"
+    ],
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem Solving"
+    ]
+  },
+  "experience": [
+    {
+      "job_title": "Python Backend Developer",
+      "company": "ABC Technologies Pvt Ltd",
+      "start_date": null,
+      "end_date": "Present",
+      "responsibilities": [
+        "Developed REST APIs",
+        "Worked with PostgreSQL",
+        "Dockerized applications",
+        "Collaborated with Agile teams"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Resume Screening System",
+      "description": "Developed an AI-powered Resume Screening System.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "PostgreSQL",
+        "Docker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering",
+      "field_of_study": "Computer Science and Engineering",
+      "institution": "Anna University"
+    }
+  ],
+  "certifications": [
+    "Python Programming",
+    "AWS Cloud Practitioner"
+  ],
+  "languages": [
+    "English",
+    "Tamil"
+  ]
+}

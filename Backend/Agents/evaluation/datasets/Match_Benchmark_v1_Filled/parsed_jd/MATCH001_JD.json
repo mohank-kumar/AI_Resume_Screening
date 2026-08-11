@@ -1,0 +1,46 @@
+{
+  "job_metadata": {
+    "title": "Python Backend Developer",
+    "location": "Chennai",
+    "work_mode": "Hybrid",
+    "min_years_experience": 0,
+    "max_years_experience": 0
+  },
+  "skills": {
+    "mandatory_technical_skills": [
+      "Python",
+      "FastAPI"
+    ],
+    "preferred_technical_skills": [
+      "Docker"
+    ],
+    "tools_and_technologies": [
+      "Git",
+      "Postman"
+    ]
+  },
+  "role_overview": "Python Backend Developer role",
+  "required_qualifications": {
+    "education": [
+      {
+        "degree": "Bachelor's",
+        "field_of_study": "Computer Science",
+        "is_mandatory": true
+      }
+    ],
+    "certifications": []
+  },
+  "key_responsibilities": [
+    "Develop software",
+    "Write tests"
+  ],
+  "domain_knowledge": [
+    "Software Engineering"
+  ],
+  "screening_criteria_weights": {
+    "technical_skills_weight": "High",
+    "experience_weight": "High",
+    "education_weight": "Medium",
+    "domain_knowledge_weight": "Low"
+  }
+}

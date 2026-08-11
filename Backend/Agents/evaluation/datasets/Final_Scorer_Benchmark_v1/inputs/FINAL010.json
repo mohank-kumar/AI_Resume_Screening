@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 25,
+      "preferred_skills_score": 15,
+      "experience_score": 25,
+      "education_score": 30,
+      "domain_fit_score": 25,
+      "overall_match_score": 25,
+      "recommendation": "Reject",
+      "summary": "Very limited alignment with the job requirements."
+    }
+  }
+}

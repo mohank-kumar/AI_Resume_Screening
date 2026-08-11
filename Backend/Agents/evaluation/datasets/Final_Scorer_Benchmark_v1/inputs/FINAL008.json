@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 45,
+      "preferred_skills_score": 35,
+      "experience_score": 45,
+      "education_score": 50,
+      "domain_fit_score": 45,
+      "overall_match_score": 45,
+      "recommendation": "Reject",
+      "summary": "Insufficient match across important mandatory requirements."
+    }
+  }
+}

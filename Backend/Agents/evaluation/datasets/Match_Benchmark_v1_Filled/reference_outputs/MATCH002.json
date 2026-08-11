@@ -1,0 +1,59 @@
+{
+  "skills_analysis": {
+    "matched_mandatory_skills": [
+      "Python",
+      "Django"
+    ],
+    "missing_mandatory_skills": [],
+    "matched_preferred_skills": [],
+    "missing_preferred_skills": [
+      "Docker"
+    ],
+    "additional_candidate_skills": [
+      "Communication",
+      "Problem Solving"
+    ]
+  },
+  "experience_analysis": {
+    "jd_required_years": 2,
+    "candidate_total_years": 3,
+    "experience_match_status": "Meets",
+    "seniority_fit": "Optimal Fit",
+    "experience_alignment_notes": "Candidate experience is relevant to the job."
+  },
+  "education_and_certifications_analysis": {
+    "education_match_status": "Meets",
+    "education_notes": "Bachelor's degree satisfies the requirement.",
+    "certifications_match_status": "Nice-To-Have ",
+    "certification_notes": "Relevant certifications strengthen the profile."
+  },
+  "domain_fit_analysis": {
+    "jd_target_domains": [
+      "Software Engineering"
+    ],
+    "candidate_domains": [
+      "Software Engineering"
+    ],
+    "domain_match_status": "Strong Match"
+  },
+  "qualitative_findings": {
+    "key_strengths": [
+      "Relevant experience",
+      "Strong technical skills"
+    ],
+    "identified_gaps": [
+      "Docker"
+    ],
+    "red_flags_or_concerns": []
+  },
+  "overall_evaluation": {
+    "mandatory_skills_score": 100,
+    "preferred_skills_score": 0,
+    "experience_score": 100,
+    "education_score": 100,
+    "domain_fit_score": 100,
+    "overall_match_score": 90,
+    "recommendation": "Strong Hire",
+    "summary": "The candidate is a good match for the Django Backend Developer role."
+  }
+}

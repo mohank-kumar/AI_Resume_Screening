@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 78,
+      "preferred_skills_score": 68,
+      "experience_score": 78,
+      "education_score": 83,
+      "domain_fit_score": 78,
+      "overall_match_score": 78,
+      "recommendation": "Shortlist",
+      "summary": "Relevant profile with several gaps against the target role."
+    }
+  }
+}

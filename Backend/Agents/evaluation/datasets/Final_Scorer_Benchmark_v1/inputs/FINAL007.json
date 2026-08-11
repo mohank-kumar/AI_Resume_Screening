@@ -1,0 +1,14 @@
+{
+  "match_evaluation": {
+    "overall_evaluation": {
+      "mandatory_skills_score": 55,
+      "preferred_skills_score": 45,
+      "experience_score": 55,
+      "education_score": 60,
+      "domain_fit_score": 55,
+      "overall_match_score": 55,
+      "recommendation": "Consider",
+      "summary": "Limited alignment with the role and significant gaps."
+    }
+  }
+}
